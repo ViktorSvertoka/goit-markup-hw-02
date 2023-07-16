@@ -14,59 +14,70 @@
     <title>Web Studio</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="/">Web<span>Studio</span></a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+    <header class="header">
+      <nav class="header-nav">
+        <a class="header-nav__logo-blue" href="./index.html"
+          >Web<span class="header-nav__logo-black">Studio</span></a
+        >
+        <ul class="header-nav__list">
+          <li class="header-nav__item">
+            <a class="header-nav__link" href="./index.html">Studio</a>
+          </li>
+          <li class="header-nav__item">
+            <a class="header-nav__link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="header-nav__item">
+            <a class="header-nav__link" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <ul class="header-contacts__list">
+        <li class="header-contacts__item">
+          <a class="header-contacts__link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </li>
-        <li>
-          <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+        <li class="header-contacts__item">
+          <a class="header-contacts__link" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
         </li>
       </ul>
     </header>
 
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero">
+        <h1 class="hero__title">Effective Solutions for Your Business</h1>
+        <button class="hero__button" type="button">Order Service</button>
       </section>
 
-      <section>
-        <!-- hidden title h2 -->
-        <h2>Hidden</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+      <section class="company">
+        <h2 class="hidden">Hidden</h2>
+        <ul class="company__list">
+          <li class="company__item">
+            <h3 class="company__title">Strategy</h3>
+            <p class="company__text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="company__item">
+            <h3 class="company__title">Punctuality</h3>
+            <p class="company__text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="company__item">
+            <h3 class="company__title">Diligence</h3>
+            <p class="company__text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="company__item">
+            <h3 class="company__title">Technologies</h3>
+            <p class="company__text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -74,25 +85,28 @@
         </ul>
       </section>
 
-      <section>
-        <h2>What are we doing</h2>
-        <ul>
-          <li>
+      <section class="works">
+        <h2 class="works__title">What are we doing</h2>
+        <ul class="works__list">
+          <li class="works__item">
             <img
+              class="works__image"
               src="./images/work-01.jpg"
               alt="computer-monitor"
               width="360"
             />
           </li>
-          <li>
+          <li class="works__item">
             <img
+              class="works__image"
               src="./images/work-02.jpg"
               alt="phone-application"
               width="360"
             />
           </li>
-          <li>
+          <li class="works__item">
             <img
+              class="works__image"
               src="./images/work-03.jpg"
               alt="laptop-and-phone"
               width="360"
@@ -101,48 +115,58 @@
         </ul>
       </section>
 
-      <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
+      <section class="team">
+        <h2 class="team__title">Our Team</h2>
+        <ul class="team__list">
+          <li class="team__item">
             <img
+              class="team__image"
               src="./images/team-01.jpg"
               alt="photo Mark Guerrero"
               width="264"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="team__specialist">Mark Guerrero</h3>
+            <p class="team__job-title">Product Designer</p>
           </li>
-          <li>
-            <img src="./images/team-02.jpg" alt="photo Tom Ford" width="264" />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
-          </li>
-          <li>
+          <li class="team__item">
             <img
+              class="team__image"
+              src="./images/team-02.jpg"
+              alt="photo Tom Ford"
+              width="264"
+            />
+            <h3 class="team__specialist">Tom Ford</h3>
+            <p class="team__job-title">Frontend Developer</p>
+          </li>
+          <li class="team__item">
+            <img
+              class="team__image"
               src="./images/team-03.jpg"
               alt="photo Camila Garcia"
               width="264"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="team__specialist">Camila Garcia</h3>
+            <p class="team__job-title">Marketing</p>
           </li>
-          <li>
+          <li class="team__item">
             <img
+              class="team__image"
               src="./images/team-04.jpg"
               alt="photo Daniel Wilson"
               width="264"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="team__specialist">Daniel Wilson</h3>
+            <p class="team__job-title">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
-    <footer>
-      <a href="/">Web<span>Studio</span></a>
-      <p>
+    <footer class="footer">
+      <a class="footer__logo-blue" href="./index.html"
+        >Web<span class="footer__logo-white">Studio</span></a
+      >
+      <p class="footer__text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
