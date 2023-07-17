@@ -300,19 +300,19 @@ img {
 
 /* Page Portfolio */
 
-.filter {
+.gallery-filter {
 }
 
 .hidden {
 }
 
-.filter__list {
+.gallery-filter__list {
 }
 
-.filter__item {
+.gallery-filter__item {
 }
 
-.filter__button {
+.gallery-filter__button {
   color: var(--color-iris);
   background-color: var(--color-cloud);
   font-family: 'Roboto', sans-serif;
@@ -326,8 +326,8 @@ img {
   padding: 12px 24px 12px 24px; */
 }
 
-.filter__button:hover,
-.filter__button:focus {
+.gallery-filter__button:hover,
+.gallery-filter__button:focus {
   color: var(--color-white);
   background-color: var(--color-ocean);
   /* box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
