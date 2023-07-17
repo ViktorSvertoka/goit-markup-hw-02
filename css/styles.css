@@ -36,6 +36,10 @@ button {
   list-style: none;
 }
 
+.link {
+  text-decoration: none;
+}
+
 /* ul {
   list-style: none;
 }
@@ -118,6 +122,10 @@ img {
 .header-nav__link:hover,
 .header-nav__link:focus {
   color: var(--color-ocean);
+}
+
+.header-contacts {
+  font-style: normal;
 }
 
 .header-contacts__list {
