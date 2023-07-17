@@ -246,6 +246,7 @@ img {
 }
 
 .team__item {
+  background-color: var(--color-white);
 }
 
 .team__image {
